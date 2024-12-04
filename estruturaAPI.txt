@@ -1,0 +1,22 @@
+CRUD DE FRASES
+
+Criar frases,deletar,atualizar e let
+
+vamos precisar de:
+
+CRIAR FRASE:
+POST /frases <- parar criar frases novas
+
+Ler - Listar TODAS AS FRASES
+GET /frases <- pegar a lista de frases
+
+LET - Pegar informações de uma frase
+GET /frases/123 <- pegar informação de uma frase específica
+
+
+Atualizar as frases
+
+PUT /frase/123 <- atualiza informação de uma frase
+
+Deleta as frases
+DELETE /frases/123 <= deletar informações de uma frase
